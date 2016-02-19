@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+/* This is a comment!*/
+
+/* CSS Syntax 
+
+selector {
+  property: value;
+  property: value;
+}
+
+
+*/
+
+/* Type selector */
+
+p {/* select all <p>} */
+
+font-size: 16px; /* 16 px, ?pt, 100%, 1em */
+line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", Serif ;*/
+  font: normal 0.75em/1.5em 'Poiret One', sans-serif;
+  color: rgba(132,125,183,1);
+  text-align: right;
+  ; 
+
+}
+
+/* Class selector (applied to as many elements as you like)*/
