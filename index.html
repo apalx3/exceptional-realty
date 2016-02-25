@@ -9,7 +9,13 @@
 </head>
 
 <body>
-      <header>
+    <div id="social">
+<a href="#">Twitter </a>
+<a href="#">Facebook </a>
+<a href="#">Google Plus</a>
+    </div>  
+    <header>
+      <div class="wrapper">
       <div id="logo">      
     <h1>Exceptional</h1>
 
@@ -25,13 +31,12 @@
         <a href="real-estate-listings.html"> Listings </a>
         <a href="contact.html">Contact </a>
         <a href="http://hud.gov" target="_blank"> H.U.D </a>
-         
       </nav>
-
+      </div> <!--.wrapper -->
     </header>
 
-
-<section>
+  <div class="wrapper clearfix">
+    <section id="featured property" class="col-3 first">
       <figure>
           <img src="images/intro-pic.jpg" alt="A Beautiful Living Room." title="Welcome to Exceptional Realty">
           <figcaption>345 Carl Street Apt 12, Carrol rd. Brooklyn, NY. Photo by Denise Richards. </figcaption>
@@ -49,50 +54,65 @@
 
 </section>
 
-<section id="promotional">
+<section id="promotional" class="col-2 first">
       <figure>
         <!-- promo video -->
 
         <video controls>
           <source src="videos/real-estate.ogv" type="video/mp4">
-
-          
-
-
-      
         </video>
         <figcaption>Exceptional Realty Group Promotional Video. Source: archive.org </figcaption>
       </figure>
 </section>
 
-<section id="details">
-<div>
-  <h3>Contact</h3>
-  <p>
-    email <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a> <br>
+<section id="news" class="col-1">
+  <h3>Company News</h3>
+  <p>lorem ipsum</p>
+  </section>
 
-    phone: +1 710 555 1234
-  </p>
-
-  <h3>Correspondence</h3>
-  <address>
-    Exceptional Realty <br>
-    P.O Box 555 <br>
-    Brooklyn, NY 11201
-  </address>
-</div>
+      </div> <!--.wrapper -->
 
 
-<div>
-  <h3>Links</h3>
-  <p>
-    <a href="#" target="_blank">Youtube</a><br>
-    <a href="#" target="_blank">Facebook</a><br>
-    <a href="#" target="_blank">Twitter</a>
+      <section id="details">
+        <div class="wrapper clearfix">
+        <div class="col-1 first">
+          <h3>Contact</h3>
+          <p>
+            email <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a> <br>
+
+            phone: +1 710 555 1234
+        </p>
+
+        <h3>Correspondence</h3>
+        <address>
+          Exceptional Realty <br>
+          P.O Box 555 <br>
+          Brooklyn, NY 11201
+        </address>
+      </div>
+
+      <div>
+        <h3>Links</h3>
+        <p>
+          <a href="#" target="_blank">Home Restoration</a><br>
+          <a href="#" target="_blank">Affordable Mortgage</a><br>
+          <a href="#" target="_blank">Professional Moving Crew</a>
+        </p>
+      </div>
+
+      <div class="col-1">
+        <h3>Follow</h3>
+        <p>
+          <a href="#" target="_blank">Youtube</a><br>
+          <a href="#" target="_blank">Facebook</a><br>
+          <a href="#" target="_blank">Twitter</a>
+        </p>
+      </div>
+</div> <!--wrapper-->
 
 
-  </p>
-</div>
+
+
 
 </section>
 <footer>
